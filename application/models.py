@@ -11,8 +11,7 @@ class Songs(db.Model):
 
 	def __repr__(self):
 		return ''.join([
-			'Song:  ', self.title, ' ', '\r\n',
-			'Artist: ', self.artist, '\r\n', 
+			'Song:  ', self.title, ' ', 'Artist: ', self.artist, '\r\n', 
 			'Lyrics: ', self.songLyric , '\r\n',
 			'Year of Release:', self.year
 

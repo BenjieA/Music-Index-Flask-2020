@@ -7,5 +7,19 @@
 <p> retype password textbox</p>
 <p> initiate account creation button</p>
 <p> welcome username</p>
+
+<form method="POST" action="">
+	<center>
+	<H1>Create your account </H1> <br>
+        Username <input type = "text" name= "username" /> <br>
+	Enter Password  * <input type = "password" name = "password" /> <br>
+        Re-enter Password <input type = "password" id="pass" name="password" minlength="8" required /> <br>
+    	<p>* Minimum 8 characters</p>
+    
+        <input type=button onclick="parent.location='../register'" value='Create Account'>
+        <input type = "submit">
+        </center>
+</form>
+
 {% endblock %}
 
